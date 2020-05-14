@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    color: hotpink;
+    background-color: indigo;
+    text-align: center
+}
+.rectangle{
+    height: 50px;
+    width: 100px;
+    color: hotpink;
+    background-color: indigo;
+    text-align: center
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color:hotpink;
+    background-color: indigo;
+    text-align: center
+}
+.triangle{
+    height: 0px;
+    width:  0px;
+    border-left: 50px solid;
+    border-right: 50px solid;
+    border-bottom:100px solid transparent;
+    color:white;
+    background-color: indigo;
+    
+}
+.table{
+    height: 0px;
+    width:  50px;
+    border-left: 50px solid;
+    border-right: 50px solid;
+    border-bottom:100px solid transparent;
+    color:white;
+    background-color: indigo;
+    text-align:center;
+    
+}
+
+ .parallel{
+     margin: 50px;
+    height: 100px;
+    width:  100px;
+    transform: skew(25deg);
+    color:hotpink ;
+    background-color: indigo;
+    text-align:center;
+
+}
